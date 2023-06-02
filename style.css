@@ -1,0 +1,427 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+
+}
+#page1 #nav{
+    width: 100%;
+    height: 100px;
+    /* background-color: rgb(255, 106, 0) */
+    ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    border-bottom: 2px solid #000;
+}
+#nav-1 h5{
+    font-family: gilroy;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+#nav img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-position: center;
+    margin-left: 70px;
+}
+#nav-1{
+    width: 40%;
+    height: 50%;
+    /* background-color: rgb(252, 31, 6); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+#nav input{
+    width: 300px;
+    height: 40px;
+    border-radius: 50px;
+    padding-left: 30px;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+#but{
+    display: flex;
+    margin-right: 20px;
+  
+}
+#but button{
+    padding: 5px 7px 5px 7px;
+    font-size: 20px;
+    font-family: gilroy;
+    font-weight: 500;
+    border: none;
+    color: #070707;
+    background-color: #fff;
+    border-radius: 4px;
+   
+}
+#but button:hover{
+    background-color: #fc0808;
+    color: #fff;
+}
+#but button:nth-child(2):hover{
+    background-color: rgb(253, 253, 3);
+    color: #070707;
+}
+#but button:nth-child(2){
+    background-color: salmon;
+    color: #fffefe;
+}
+#center{
+    width: 100%;
+    height: calc(100% - 100px);
+    /* background-color: aqua; */
+}
+#center img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:  40% 80% ;
+}
+#center h1{
+    position: absolute;
+    font-size: 60px;
+    color: rgb(209, 227, 210);
+    font-family: monument;
+    bottom: 40%;
+    mix-blend-mode: difference;
+    left: 5%;
+    letter-spacing: 4px;
+}
+#bottom{
+    width: 100%;
+    height: 50%;
+    /* background-color: aqua; */
+    white-space: nowrap;
+    padding-left: calc(20% - 10px);
+}
+.elem{
+    width: 300px;
+    height: 100%;
+    /* background-color: bisque; */
+    display: inline-block;
+    /* margin-top: 40px; */
+    padding: 10px;
+}
+.elem img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#page2{
+    width: 100%;
+    height: 80%;
+    background-color: #FC8019;
+    position: relative;
+}
+#page2 h1{
+    color: #fff;
+    font-size: 60px;
+    font-family: monument;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#page2-box{
+    width: 70%;
+    height: 60%;
+    /* background-color: #d6d623; */
+    position: absolute;
+    top: 70%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /* white-space: nowrap; */
+}
+#page2-box .box img:hover{
+    width: 200px;
+    height: 200px;
+}
+.box{
+    /* padding-top: 50px; */
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #FC8019;
+   
+    display: inline-block;
+    margin-left: 90px;
+    margin-top: 40px;
+    
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0;
+    object-position: center;
+
+}
+.box h3{
+    padding-left: 5px;
+    text-align: center;
+    color: #fff;
+    font-family: gilroy;
+    font-size: 20px;
+
+}
+#page3{
+    width: 100%;
+    height: 80%;
+    /* background-color: #e90a0a; */
+    position: relative;
+}
+#head {
+    width: 300px;
+    /* height: 60px; */
+    /* background-color: #666; */
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+#head h1{
+    font-family: gilroy;
+    font-size: 40px;
+}
+#head2{
+    width:400px ;
+    height: 50px;
+    /* background-color: #666; */
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+#head2 p{
+    font-family: gilroy;
+    font-size: 20px;
+    font-weight: 400;
+    color: #666;
+}
+#bot{
+    width: 30%;
+    height: 70px;
+    /* background-color: #070707; */
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    top: 60%;
+    left: 10%;
+    /* transform: translate(-50%,-10%); */
+}
+#bot #b1{
+    width: 50%;
+    height: 100%;
+    /* background-color: salmon; */
+    /* position: relative; */
+    background-image: url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/play_ip0jfp);
+    background-size: cover;
+    /* background-position: center; */
+    border-radius: 10px;
+    padding: 10px;
+
+}
+ /* #bot #b1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+} */
+#bot #b2{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(240, 30, 7); */
+    background-image: url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/iOS_ajgrty);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#image {
+    width: 60%;
+    height: 100%;
+    /* background-color: #13a3c0; */
+    position: absolute;
+    left: 40%;
+    display: flex;
+    justify-content: center;
+}
+ #image #ima1{
+    width: 50%;
+    height: 100%;
+    /* background-color: #666; */
+    background-image: url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/pixel_wbdy4n);
+    background-size: cover;
+    background-position: center;
+}
+ #image #ima2 {
+    width: 50%;
+    height: 100%;
+    /* background-color: #55dc12; */
+    background-image: url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_768,h_978/iPhone_wgconp_j0d1fn);
+    background-size: cover;
+    background-position: center;
+    
+}
+/* #page3 img{
+    position: absolute;
+    width: 30%;
+    height: 90%;
+    left: 40%;
+}
+#image2 img{
+    width: 100%;
+    height: 100%;  
+    object-fit: cover;
+    object-position: center;
+   
+} */
+#page4{
+    width: 100%;
+    height: 80%;
+    background-color: #000;
+}
+#page4 #upper{
+    width: 100%;
+    height: 80%;
+    /* background-color: lavender; */
+    display: flex;
+    border-bottom: 2px solid#ffff;
+}
+#page4 #lower{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(7, 7, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.foot{
+    width: 25%;
+    height: 100%;
+    /* background-color: #e51414; */
+    padding-top: 50px;
+    border: 0.3px solid#fff;
+}
+
+.foot h5{
+    margin-left: 230px;
+    /* margin-top: 70px; */
+    font-family: gilroy;
+    font-size: 17px;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.foot h6{
+    margin-top: 18px;
+    font-family: gilroy;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 230px;
+    font-weight: 300;
+}
+.foot1{
+    width: 25%;
+    height: 100%;
+    /* background-color: #e51414; */
+    padding-top: 50px;
+    border-left: 0.3px solid #fff;
+}
+.foot1 h5{
+    margin-left: 150px;
+    /* margin-top: 70px; */
+    font-family: gilroy;
+    font-size: 17px;
+    color: #666;
+    text-transform: uppercase;
+
+}
+
+.foot1 h6{
+    margin-top: 18px;
+    font-family: gilroy;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 150px;
+    font-weight: 300
+}
+.foot2{
+    width: 25%;
+    height: 100%;
+    /* background-color: #e51414; */
+    /* padding-top: 50px; */
+    /* overflow-x: hidden; */
+}
+.foot2 #foot-ima1{
+    width: 70%;
+    height: 20%;
+    /* background-color: salmon; */
+    /* position: absolute; */
+    background-image: url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/play_ip0jfp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: 2px solid#fff;
+   
+
+}
+.foot2 #foot-ima2{
+    width: 70%;
+    height: 20%;
+    /* background-color: rgb(240, 30, 7); */
+    background-image: url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_108/iOS_ajgrty);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: 2px solid#fff;
+}
+.foot2 button{
+    width: 100px;
+    height: 50px;
+    padding: 0%;
+}
+.foot2 button img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#lower i{
+    font-size: 30px;
+    color: #ffff;
+}
+#lower i:hover{
+    font-size: 50px;
+
+}
